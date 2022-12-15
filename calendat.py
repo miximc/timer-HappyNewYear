@@ -56,6 +56,7 @@ class calendar:
             print(f"Новый год в {self.new_god} год наступит в {ost_day[self.till_ny % 7]}")
 
 # проверка
+# проверка № 2
 run = calendar(ost_day)
 run.next_new_year()
 run_2 = calendar(1995)
